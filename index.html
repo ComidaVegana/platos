@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Culinario 2-PLANT BASED</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icono2.png">
+   <!--<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_i">--> 
+    <!-- ANULAR BOTON DERECHO -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+</head>
+<body>
+      <!-- INICIO -->
+      <section id="inicio">
+
+        <!--ENCABEZADO-->
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <a href="./img/TParteCulinario2A3.pdf" download="CaballeroElizabethCV.pdf">
+                    <h1>Arte Culinario 2 (Final) descargar</h1>
+                    </a>
+    
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sabores" onclick="seleccionar()">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Sabores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#platos">
+                                <i class="fa-solid fa-utensils" onclick="seleccionar()"></i>
+                                <span>Platos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blog">
+                                <i class="fa-solid fa-pen" onclick="seleccionar()"></i>
+                                <span>Blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto">
+                                <i class="fa-solid fa-comments" onclick="seleccionar()"></i>
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <div class="social">
+                    <a href="tel: 11-2397-3597">
+                        <i class="fa-solid fa-phone"></i>
+                        11-2397-3597
+                    </a>
+    
+                    <a href="#">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+
+                        <a href="#" class="subscribirse">
+                         <i class="sub">
+                             <img src="./img/login.svg" alt="subcribirse">
+                         </i>
+                        </a>
+    
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultar()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                
+    
+            </div>
+        </header>
+
+        <!--CARRUSEL-->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true,"pageDots":false, "autoPlay":true}'>
+
+                <div class="gallery-cell">
+                    <img src="./img/Portada1AireRabanito.jpg" alt="Una hambueguesa">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./img/Pagina2aireRabanito.jpg" alt="Una hambueguesa">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./img/reseta.jpg" alt="Una hambueguesa">
+                </div>
+
+                <button>
+                    <a href="./img/TParteCulinario2A3.pdf" download="CaballeroElizabethCV.pdf">
+                            Descargar TRABAJO <i class="fa-solid fa-download"></i>
+                    </a>
+                    
+                    <span class="overlay"></span>
+                </button>
+            
+            </div>    
+               
+            
+        </div>
+   <!-- <div class="image-container">
+        <img src="./img/Portada1AireRabanito.jpg" alt="Imagen 1">
+        <img src="./img/Pagina2aireRabanito.jpg" alt="Imagen 2">
+        <img src="./img/reseta.jpg" alt="Imagen 3">
+    </div>  -->  
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
